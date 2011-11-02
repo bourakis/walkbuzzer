@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">  
+      
+    <PreferenceCategory android:title="Notification Settings">
+    
+           <ListPreference
+           android:title="Distance"
+           android:summary="Adjust the distance between you and your notification"
+           android:key="listDistance"
+           android:defaultValue="10"
+           android:entries="@array/distanceArray"
+           android:entryValues="@array/distanceArray_values" />       
+         
+    </PreferenceCategory>
+    
+    
+</PreferenceScreen>  

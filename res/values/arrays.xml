@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+   
+    <string-array name="distanceArray">
+        <item>10 Meters</item>
+        <item>20 Meters</item>
+        <item>30 Meters</item>
+        <item>50 Meters</item>
+        <item>70 Meters</item>
+        <item>100 Meters</item>
+    </string-array>
+    
+    <string-array name="distanceArray_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+    </string-array>
+    
+    
+</resources>

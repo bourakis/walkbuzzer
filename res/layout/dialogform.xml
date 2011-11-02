@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20px"
+    android:minWidth="280px" >
+    >
+    <TextView
+android:id="@+id/widget31"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Name"
+>
+</TextView>
+<EditText
+android:id="@+id/widget32"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="New notification"
+android:textSize="18sp"
+>
+</EditText>
+<Button
+android:id="@+id/widget33"
+android:layout_width="120px"
+android:layout_height="40px"
+android:text="OK"
+>
+</Button>
+        
+</LinearLayout>

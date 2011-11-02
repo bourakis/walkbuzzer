@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <gr.mclab.walkbuzzer.PushPinMapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:apiKey="0u2Gkk1J9kUec2IRMULQ5q_oi_14c6cOaO9IZ_w"
+    />
+    
+    /*  debug google map keys
+    	giorgos pc: 0_nLRSot92xpyVtQW2EKao6niBXXdhpiGaNb-dw
+    	giorgos laptop:  0_nLRSot92xrRGbGdS7jyQfRgKaQS601kERs5CA
+    	michalhs: 0u2Gkk1J9kUdIqfdzzAHeV1ogqjVpJXWnwwF8JA
+    */
+    
+    <ImageView android:id="@+id/drag"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/marker_red_dot"
+		android:visibility="gone"
+	/>
+    
+</RelativeLayout>
